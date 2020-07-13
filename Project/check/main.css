@@ -1,0 +1,87 @@
+body {
+	background : url("cover1.jpg") ;
+	background-size: cover;
+	}
+	.bar{
+	overflow: hidden;
+	background-color: #333 ;
+}
+	.bar a{
+	float: left;
+	color: #f2f2f2 ; 
+	text-align: center;
+	padding: 14px 16px 
+}
+.bar a:hover {
+	background-color: #ddd 
+	color : black;
+}
+h2{
+	color:#30336b;
+	text-align: center;
+  }
+h3{
+	color: #2c2c54;
+	font-family: "Arial black",serif
+}
+#hmuch{
+  	color:#2c2c54 ;
+  	font-family: Arial , serif
+  }
+ 
+p {
+	text-align: center;
+	color: #2c2c54;
+	font-family: "Arial black",serif;
+}
+.f1{
+	width: 70%;
+	margin: 5em auto 0;
+	padding: 2em;
+	background-color: #ffda79;
+	border: #ffda79;
+	text-align:center
+}
+.f1 button{
+    background-color: #1dd1a1
+    color : white;
+}
+#bordure{
+	width: 70%;
+	margin: 5em auto 0;
+	padding: 2em;
+	background-color: #ffda79;
+	border: #ffda79 ; 
+	text-align:center
+}
+
+.b1 {
+	width: 150px ; 
+	height :150px ;
+	background-image: url("https://i.pinimg.com/736x/1e/b7/65/1eb76519c6baf024c78f5c75f6ba9244.jpg");
+	background-size: cover; 
+}
+.b2 {
+	width: 150px ; 
+	height :150px ;
+	background-image: url("https://i.pinimg.com/originals/3d/2b/77/3d2b77f31a774cd2f0a1b43b31ecda27.jpg");
+	background-size: cover; 
+}
+.b3 {
+	width: 150px ; 
+	height :150px ;
+	background-image: url("https://i.pinimg.com/originals/41/d7/ae/41d7aec8f46f9bbfcbf58ffd9bb4a261.png");
+	background-size: cover; 
+}
+.new{
+	color:#ff7675;
+	font-family: "Arial" serif;
+	float: center;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<link rel="stylesheet" href="main.css">
+  	<title>What About Corona!</title>
+    <script src="main.js"></script> 
+  </head>
+  <body>
+  	  <div class="bar">
+  	<a class="about" href="C:\Users\ACER\Desktop\my prject\Project1\Project\main.html">About Corona!</a>
+  	<a class="check" href="C:\Users\ACER\Desktop\my prject\Project1\Project\check\main.html">Check!</a>
+    <a class="sec" href="C:\Users\ACER\Desktop\my prject\Project1\Project\check\about us\main.html">About Us</a>
+  </div>
+    <hr>
+  	<h2>Your Health Is All What You Have!</h2>
+<br>
+  <p> Coronaviruses are a type of virus. There are many different kinds, and some cause disease. A newly identified coronavirus, SARS-CoV-2, has caused a worldwide pandemic of respiratory illness, called COVID-19.</p>
+  <br>
+<div class="text">
+	<li>COVID-19 is the disease caused by the new coronavirus that emerged in China in December 2019.</li>
+	<li>COVID-19 symptoms include cough, fever or chills, shortness of breath or difficulty breathing, muscle or body aches, sore throat, new loss of taste or smell, diarrhea, headache, fatigue, nausea or vomiting and congestion or runny nose. COVID-19 can be severe, and some cases have caused death.</li>
+	<li>The new coronavirus can be spread from person to person. It is diagnosed with a laboratory test.</li>
+	<li>There is no coronavirus vaccine yet. Prevention involves frequent hand-washing, coughing into the bend of your elbow, staying home when you are sick and wearing a cloth face covering if you can't practice physical distancing.</li>
+</div>
+	<br>
+	<div>
+		<p class="tr">Choose a Countrie to see statestics:</p>
+		
+		<button class ="w1"id="choose">Tunisia</button>
+		</div>
+		<div>
+			<p class="h1">Number Of Cases :1245 cases</p>
+			<p class="h1">Number Of deathes :50</p>
+		</div>
+		
+		<button class="w1" id="never">Algeria</button>
+			<p class="h2">Number Of Cases :19 195 cases</p>
+			<p class="h2">Number Of deathes : 1011 </p>
+		</div>
+		<button class="w1" id="hw">Maroco</button>
+			<p class="h3">Number Of Cases :15542 cases</p>
+			<p class="h3">Number Of deathes : 250 </p>
+
+	</div>
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script>
+		$(".h1").hide()
+	$("#choose").click(function(){
+		$(".h1").show("fast",function(){
+			$(this).prev().show("fast");
+		})
+	})
+		$(".h2").hide()
+	$("#never").click(function(){
+		$(".h2").show("fast",function(){
+			$(this).prev().show("fast");
+		})
+	})
+		$(".h3").hide()
+	$("#hw").click(function(){
+		$(".h3").show("fast",function(){
+			$(this).prev().show("fast");
+		})
+	})
+	</script>
+  </body>
+</html>

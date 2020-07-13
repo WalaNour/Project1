@@ -1,0 +1,58 @@
+body {
+	background : url("cover1.jpg");
+	background-size: cover;
+	}
+.bar{
+	overflow: hidden;
+	background-color: #333 ;
+}
+.bar a{
+	float: left;
+	color: #f2f2f2 ; 
+	text-align: center;
+	padding: 14px 16px 
+}
+.bar a:hover {
+	background-color: #ddd 
+	color : black;
+}
+h2{
+	color: #636e72;
+  }
+
+p {
+	text-align: center;
+	color: #2c2c54;
+	font-family: "Arial black",serif;
+}
+img{
+	width: 200px ;
+	height:200px;
+	border-radius: 50% ; 
+}
+.text {
+
+	border: #ddd;
+	background-color: #ddd;
+	padding: 30px;
+	widows: 200px;
+	height: 110px;
+	text-align: justify;
+	font-family: "Arial Narrow", sans-serif;
+	font-size: 20px;
+	color: #636e72
+}
+.w1{
+	height: 50px 
+	width : 70px;
+	left: 50%;
+	right: 50%
+	border: none;
+    margin-top : 30px ;
+    margin-left: 550px ;
+    background-color: #ddd; 
+}
+.w1 button:hover{
+    background-color: #1dd1a1
+    color : white;
+}

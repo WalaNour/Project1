@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<link rel="stylesheet" href="main.css">
+  	<title>What About Corona!</title>
+     
+  </head>
+  <body>
+  	 <div class="bar">
+  	<a class="about" href="C:\Users\ACER\Desktop\my prject\Project1\Project\main.html">About Corona!</a>
+    <a class="check" href="C:\Users\ACER\Desktop\my prject\Project1\Project\check\main.html">Check!</a>
+    <a class="sec" href="C:\Users\ACER\Desktop\my prject\Project1\Project\check\about us\main.html">About Us</a>
+  </div>
+  	<h2>Let's See How Much You Care !</h2>
+  	<hr>
+  <br>
+  <div class="f1">
+    <p class="try">How Many Time Did You Wash Your Hand Today ?</p>
+    <label id="hmuch">Choose The number</label>
+    <input id='wala' type="number" >
+    <button class="hal" onclick="c1()">click here</button>
+  </div>
+  <div class="back" id="bordure">
+        <h3>This How You Can Protect Your Self</h3>
+     <button class="b1" onclick="func1()"></button>
+   <div class="p1">
+      <p class="new">First, To be safe you must wear your mask</p>
+   </div>
+    <button class="b2" onclick="func2()"></button>
+  <div class="p2">
+      <p class="new">Second, you have to take care of the distance between you and every one else </p>
+    </div>
+    <button class="b3" onclick="func3()"></button>
+    <div class="p3">
+    <p class="new">Third, you have to wash your hand after every contact with anything you touch</p>
+  </div> 
+     </div>  
+
+  <script src="main.js"></script>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script >
+ var count= 0 ;
+ var count1= 0 ;
+ var count2= 0 ;
+ $(".back").hide() ; 
+ $('.p1').hide() ; 
+  function func1(){
+    count++ ; 
+    if(count %2 !== 0){
+      $('.p1').show() ; 
+    }
+    else if(count % 2 === 0){
+       $('.p1').hide() ; 
+    }
+    }
+  $('.p2').hide() ; 
+  function func2(){
+         count1++ ; 
+    if(count1 %2 !== 0){
+      $('.p2').show() ; 
+    }
+    else if(count1 % 2 === 0){
+       $('.p2').hide() ; 
+    }
+    }
+  $('.p3').hide() ; 
+  function func3(){
+     count2++ ; 
+    if(count2 %2 !== 0){
+      $('.p3').show() ; 
+    }
+    else if(count2 % 2 === 0){
+       $('.p3').hide() ; 
+    } 
+    }
+    function c1() {
+      var a = $('#wala').val() ;
+      if(a<=5){
+      	 $(".back").show(1000) ; 
+      	  $(".f1").hide(1000) ;
+        alert("You don't care about yourself , go and click on the images please!" )
+      }
+      else if(a>5){
+        alert("You're good but keep control!");
+      }
+      
+    }
+  </script>
+  </body>
+  
+</html>
